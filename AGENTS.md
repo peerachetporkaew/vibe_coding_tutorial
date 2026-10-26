@@ -35,3 +35,10 @@ verification commands beyond running the script.
 ## Sources of truth
 
 - Executable source: `example/crew_ai.py`; dependency list: `requirements.txt`.
+
+## กติกาโปรเจกต์ (Spec-Driven Development)
+
+- งานใหม่ทุกชิ้นเริ่มจาก specs/<ชื่อฟีเจอร์>/spec.md
+- ห้ามเขียนโค้ดจนกว่าจะมี spec.md, plan.md, tasks.md ที่ผู้ใช้อนุมัติแล้ว
+- ทำ tasks.md ทีละข้อ เขียนเทสต์ก่อน ติ๊ก [x] เมื่อเทสต์ผ่าน
+- ถ้าพบว่า spec ผิดหรือไม่ครบ ให้หยุดและบอกผู้ใช้ ห้ามเดาเอง
